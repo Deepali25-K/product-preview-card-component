@@ -27,11 +27,16 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+Desktop:
+
+![](https://i.ibb.co/89Sp8gD/FM-01-3.png)
+
+Mobile:
+
+![](https://i.ibb.co/XyxKrNp/FM-01-1.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
