@@ -33,7 +33,7 @@ main{
 }
 
 .image{
-  background: url("https://i.ibb.co/RYWvD4V/image-product-mobile.jpg");
+  background: url(/images/image-product-mobile.jpg);
   background-size: cover;
   height: 26rem;
   width: 100%;
@@ -135,7 +135,7 @@ footer a{
   }
   
   .image{
-    background: url("https://i.ibb.co/VxkDR6T/image-product-desktop.jpg");
+    background: url(/images/image-product-desktop.jpg);
     background-size: cover;
     height: 100%;
     width: 78%;
