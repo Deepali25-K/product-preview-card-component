@@ -25,11 +25,11 @@ Users should be able to:
 
 Desktop:
 
-![](https://i.ibb.co/89Sp8gD/FM-01-3.png)
+![](/Screenshots/FM-02(2).png)
 
 Mobile:
 
-![](https://i.ibb.co/XyxKrNp/FM-01-1.png)
+![](/Screenshots/FM-02(1).png)
 
 ### Links
 

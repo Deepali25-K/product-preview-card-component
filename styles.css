@@ -12,80 +12,82 @@ font-family: 'Montserrat', sans-serif;
 }
 
 html{
-  font-size: 4px;
+  font-size: 10px;
 }
 
 body{
     background-color: hsl(30, 38%, 92%);
+    height: 100vh;
+    display: flex;
+	  align-items: center;
+	  justify-content: center;
+    flex-direction: column;
 }
 
 main{
     background-color: white;
-    height: 147rem;
-    width: 81rem;
-    margin: 4vh auto;
+    width: 34rem;
     display: grid;
-    grid-template-rows: 62.5rem 82.5rem;
-    border-radius: 2.5rem;
-    margin-bottom: 2rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
 }
 
 .image{
   background: url("https://i.ibb.co/RYWvD4V/image-product-mobile.jpg");
   background-size: cover;
-  max-height: 60rem;
+  height: 26rem;
   width: 100%;
-  border-radius: 2.5rem 2.5rem 0 0;
+  border-radius: 1rem 1rem 0 0;
 }
 
 .content{
-  padding: 3rem 7rem;
+  padding: 2.5rem 2.7rem;
 }
 
 h2{
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   color: hsl(228, 12%, 48%);
-  font-size: 3rem;
+  font-size: 1.2rem;
   text-transform: uppercase;
-  letter-spacing: 1rem;
+  letter-spacing: 0.5rem;
 }
 
 h1{
   font-family: 'Fraunces', serif;
-  font-size: 7.4rem;
-  margin-top: 2rem;
-  line-height: 7.6rem;
+  font-size: 3rem;
+  margin-top: 1rem;
+  line-height: 3rem;
 }
 
 .details{
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   color: hsl(228, 12%, 48%);
-  font-size: 3.2rem;
-  margin-top: 4rem;
-  line-height: 5.2rem;
+  font-size: 1.4rem;
+  margin-top: 1.6rem;
+  line-height: 2.1rem;
 }
 
 .price{
   display: flex;
   flex-direction: row;
-  max-width: 50rem;
+  max-width: 19rem;
   align-items: center;
-  margin-top: 6rem;
+  margin-top: 2rem;
   justify-content: space-between;
 }
 
 .offer-price{
   font-family: 'Fraunces', serif;
   color: hsl(158, 36%, 37%);
-  font-size: 8rem;
+  font-size: 3.2rem;
 }
 
 .actual-price{
   font-family: 'Montserrat', sans-serif;
   color: hsl(228, 12%, 48%);
-  font-size: 3.3rem;
+  font-size: 1.2rem;
   text-decoration: line-through;
 }
 
@@ -95,16 +97,15 @@ button{
   justify-content: center;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  margin: 3.3rem 2.5rem;
+  margin: 1.6rem 2.2rem 0;
   border: none;
   color: hsl(0, 0%, 100%);
   background-color: hsl(158, 36%, 37%);
   vertical-align: middle;
-  padding: 2rem;
+  padding: 1.5rem;
   margin-left: -0.3rem;
   width: 100%;
-  height: 11.3rem;
-  border-radius: 2rem;
+  border-radius: 1rem;
   cursor: pointer;
 }
 
@@ -112,14 +113,13 @@ button:hover{
   background-color: hsl(161, 35%, 25%);
 }
 
-svg{
-  margin-right: 2rem;
+button img{
+  margin-right: 1rem;
 }
 
 footer{
-  font-size: 3rem;
+  font-size: 1.2rem;
   text-align: center;
-  margin-bottom: 4rem;
   color: hsl(228, 12%, 48%);
 }
 
@@ -130,32 +130,32 @@ footer a{
 
 @media (min-width: 600px){
   main{
-    height: 112rem;
-    width: 150rem;
-    margin: 15vh auto;
+    width: 60rem;
     display: flex;
-    border-radius: 2.5rem;
-    margin-bottom: 4rem;
   }
   
   .image{
     background: url("https://i.ibb.co/VxkDR6T/image-product-desktop.jpg");
     background-size: cover;
-    max-height: 100%;
-    width: 75%;
-    border-radius: 2.5rem 0 0 2.5rem;
+    height: 100%;
+    width: 78%;
+    border-radius: 1rem 0 0 1em;
   }
   
   .content{
-    width: 75%;
+    width: 74%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding: 6rem 6rem 6rem 9rem;
+    padding: 3rem 5.5rem 3rem 3rem;
   }
   
-  h1, .details{
-    max-width: 54rem;
+  button{
+    width: 110%;
+  }
+
+  h1, h2, .price{
+    margin-bottom: 1rem;
   }
   
 }
