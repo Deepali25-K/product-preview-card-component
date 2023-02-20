@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
 
-/*
-font-family: 'Fraunces', serif;
-font-family: 'Montserrat', sans-serif;
-*/
-
 *{
     box-sizing: border-box;
     padding: 0;
@@ -22,6 +17,7 @@ body{
 	  align-items: center;
 	  justify-content: center;
     flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
 }
 
 main{
@@ -33,7 +29,7 @@ main{
 }
 
 .image{
-  background: url(/images/image-product-mobile.jpg);
+  background: url("/images/image-product-mobile.jpg");
   background-size: cover;
   height: 26rem;
   width: 100%;
@@ -44,8 +40,7 @@ main{
   padding: 2.5rem 2.7rem;
 }
 
-h2{
-  font-family: 'Montserrat', sans-serif;
+h1{
   font-weight: 500;
   color: hsl(228, 12%, 48%);
   font-size: 1.2rem;
@@ -53,7 +48,7 @@ h2{
   letter-spacing: 0.5rem;
 }
 
-h1{
+h2{
   font-family: 'Fraunces', serif;
   font-size: 3rem;
   margin-top: 1rem;
@@ -61,7 +56,6 @@ h1{
 }
 
 .details{
-  font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   color: hsl(228, 12%, 48%);
   font-size: 1.4rem;
@@ -72,10 +66,9 @@ h1{
 .price{
   display: flex;
   flex-direction: row;
-  max-width: 19rem;
+  gap: 1.5rem;
   align-items: center;
   margin-top: 2rem;
-  justify-content: space-between;
 }
 
 .offer-price{
@@ -85,7 +78,6 @@ h1{
 }
 
 .actual-price{
-  font-family: 'Montserrat', sans-serif;
   color: hsl(228, 12%, 48%);
   font-size: 1.2rem;
   text-decoration: line-through;
@@ -95,7 +87,6 @@ button{
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   margin: 1.6rem 2.2rem 0;
   border: none;
@@ -113,19 +104,8 @@ button:hover{
   background-color: hsl(161, 35%, 25%);
 }
 
-button img{
+img{
   margin-right: 1rem;
-}
-
-footer{
-  font-size: 1.2rem;
-  text-align: center;
-  color: hsl(228, 12%, 48%);
-}
-
-footer a{
-  text-decoration: none;
-  color: hsl(158, 36%, 37%);
 }
 
 @media (min-width: 600px){
@@ -135,7 +115,7 @@ footer a{
   }
   
   .image{
-    background: url(/images/image-product-desktop.jpg);
+    background: url("/images/image-product-desktop.jpg");
     background-size: cover;
     height: 100%;
     width: 78%;
@@ -153,13 +133,9 @@ footer a{
   button{
     width: 110%;
   }
-
+  
   h1, h2, .price{
     margin-bottom: 1rem;
   }
   
 }
-
-
-
-

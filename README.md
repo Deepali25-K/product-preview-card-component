@@ -33,7 +33,7 @@ Mobile:
 
 ### Links
 
-- Live Site URL: [Code Demo](https://deepali-panchal.netlify.app/)
+- Live Site URL: [Code Demo](https://product-previe-card-component.netlify.app/)
 
 ## My process
 
